@@ -1,0 +1,559 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background: rgb(46, 45, 45);
+    position: fixed;
+    width: 100%;
+}
+
+.navbar h1{
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-right: 60px;
+    color: white;
+
+}
+
+.nav-links{
+    display: flex;
+    margin-top: 15px;
+    
+
+}
+
+.nav-links a{
+    text-decoration: none;
+    padding-right: 35px;
+    color: white;
+}
+
+.nav-links a:hover{
+    color: rgb(87, 219, 142);
+}
+.nav-links li{
+    list-style: none;
+}
+
+/* .dropdown{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: aqua;
+    padding: 12px 16px;
+    min-width: 160px;
+
+}
+
+.dcontent{
+    position: relative; */
+
+
+.navdiv{
+    margin-top: 15px;
+}
+
+.navdiv a{
+    text-decoration: none;
+    border: 1px solid gray;
+    padding: 10px 20px;
+    background-color: rgb(61, 53, 53);
+    color: white;
+}
+
+.hero-section{
+    background-image: url(images/4f4ebf8d16655184500459c4acab1202.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    top: 100%;
+    padding-top: 150px;
+    padding-left: 100px;
+
+    
+}
+
+.hero-section h1{
+    color: white;
+    font-size: 50px;
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+.hero-section p{
+    color: white;
+    font-size: 20px;
+    width: 40%;
+    line-height: 25px;
+    margin-bottom: 25px;
+}
+
+.hero-section a{
+    text-decoration: none;
+    border: 1px solid gray;
+    padding: 10px 30px;
+    background-color: rgb(61, 53, 53);
+    color: white;
+}
+
+
+.sectionbar{
+    padding: 40px;
+    background: linear-gradient(rgb(23, 23, 68), rgb(10, 10, 10));
+    
+
+}
+
+.sectionbar h2{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 40px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+.mainbar{
+    display: grid;
+    grid-template-columns: repeat(4, 0.1fr);
+    margin-left: 10px;
+    gap: 40px;
+    padding: 20px;
+    /* color: white; */
+
+}
+
+.box{
+    width: 280px;
+    background: white;
+    border-radius: 20px;
+    padding-bottom: 20px;
+    box-shadow: 0 10px 20px rgb(199, 190, 190);
+    transition: 5s;
+
+}
+
+.box:hover{
+    transform: translateX(-20px);
+    /* transform: ; */
+}
+.box img{
+    width: 280px;
+    border-radius: 7px;
+    height: 40vh;
+}
+.box h3{
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+.box p{
+    width: 100%;
+    font-size: 20px;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.box a{
+    text-decoration: none;
+    color: rgb(99, 82, 60);
+    padding: 10px;
+}
+
+.articlebar{
+    padding: 30px;
+    /* background: linear-gradient(rgb(23, 23, 68), rgb(10, 10, 10)) */
+
+}
+
+.articlebar h2{
+    text-align: center;
+    color: rgb(46, 45, 45);
+    padding-bottom: 10px;
+    font-size: 40px;
+}
+
+.maindiv{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px;
+    margin-left: 0px;
+    /* color: white; */
+    gap: 30px;
+
+}
+
+.box1{
+    width: 400px;
+    /* background: white; */
+    border-radius: 20px;
+    padding: 0px 10px 15px 0px;
+    box-shadow: 0 10px 20px rgb(199, 190, 190);
+    transition: 5s;
+}
+
+.box1:hover{
+    transform: translateY(20px);
+}
+
+.box1 img{
+    width: 400px;
+    height: 50vh;
+    border-radius: 10px;
+}
+
+.box1 h3{
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.box1 p{
+    width: 100%;
+    font-size: 20px;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    line-height: 35px;
+}
+
+.box1 a{
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(139, 126, 109);
+}
+
+.asidebar{
+    padding: 40px;
+    background-color: rgb(18, 18, 34);   
+    /* margin-bottom: 50px; */
+     
+
+
+}
+
+.asidebar h2{
+    text-align: center;
+    padding-bottom: 40px;
+    font-size: 40px;
+    color: white;
+    
+
+}
+
+.mainnav{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    
+    
+}
+
+.mainnav :hover{
+    transform: translateY(20px);
+}
+
+.mainnav img{
+    width: 300px;
+    height: 200px;
+    margin-left: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 10px rgb(65, 62, 62);
+    transition: 5s;
+
+
+}
+
+.tee{
+    font-size: 20px;
+    padding: 30px;
+    /* background: linear-gradient(rgb(45, 45, 48), rgb(8, 6, 32)) */
+    
+
+}
+
+.tee .tee0{
+    text-align: center;
+    margin-bottom: 40px;
+    color: rgb(59, 56, 56);
+    font-size: 30px;
+}
+
+.tee1{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.tee2{
+    background-color: aliceblue;
+    padding: 50px;
+    box-shadow: 5px 5px 5px 5px rgb(34, 26, 26);
+    border-radius: 20px;
+    line-height: 40px;
+    
+}
+
+.tee3{
+    background-color: aliceblue;
+    padding: 50px 50px 100px 50px;
+    box-shadow: 5px 5px 5px 5px rgb(34, 26, 26);
+    border-radius: 20px;
+    
+
+}
+
+.tee3 .opo{
+    width: 250px;
+    height: 50px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+
+}
+
+.tee3 .opos{
+    width: 250px;
+    height: 50px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+
+}
+
+.tee3 .opons{
+    width: 100%;
+    height: 100px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 80px;
+}
+
+.tee3 a{
+    text-decoration: none;
+    background-color: rgb(61, 53, 53);
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+
+}
+
+.footbar{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    background: linear-gradient(rgb(23, 23, 68), rgb(61, 45, 45));
+    color: white;
+    margin-top: 50px;
+    
+
+}
+
+.footdiv{
+    margin-left: 50px;
+}
+
+.footdiv hr{
+    width: 80px;
+    margin-top: 10px;
+    
+    
+}
+
+.footdiv p{
+    width: 70%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    
+}
+
+.footdiv .fa-brands{
+    padding-right: 40px;
+    font-size: 30px;
+    color: antiquewhite;
+    /* border-radius: 30px; */
+}
+
+.footnav{
+    padding-right: 100px;
+    line-height: 30px;
+}
+
+.footnav h3{
+    font-size: 20px;
+    width: 100%;
+    padding-bottom: 10px;
+    
+}
+
+.footnav a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+
+}
+
+.footnav a:hover{
+    color: rgb(22, 124, 8);
+}
+
+
+
+
+
+
+@media only screen and (max-width:850px){
+
+    
+
+    .navbar h1{
+        font-size: 30px;
+    }
+    .nav-links{
+        display: none;
+    }
+
+    .navdiv a{
+        padding: 0 5px 10px 10px;
+        width: 100px;
+
+    
+    }
+
+
+    .hero-section{
+        padding: 0;
+    }
+
+    .hero-section h1{
+        width: 100%;
+        padding: 20px;
+        font-size: 40px;
+        margin-bottom: 0;
+
+    }
+
+    .hero-section p{
+        padding: 20px;
+        width: 90%;
+    }
+
+    .hero-section a{
+        margin-left: 30px;
+    }
+
+    .mainbar{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 10px;
+    }
+
+    .articlebar{
+        padding: 0;
+        margin-bottom: 30px;
+        margin-top: 50px;
+    }
+
+    .maindiv{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 10px; 
+        margin-top: 20px;
+        
+    }
+
+    .box1{
+        width: 370px;
+    }
+
+    .box1 img{
+        width: 103%;
+    }
+
+    .mainnav{
+    display: grid;
+    grid-template-columns: 1fr; 
+    gap: 40px;
+    }
+
+    .tee1{
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .tee3 .opos{
+        margin-left: 0;
+
+    }
+    
+    .tee3 .opons{
+        width: 110%;
+
+    }
+
+    .footbar{
+        flex-direction: column;
+        /* align-items: center; */
+        
+        
+    }
+
+    .footbar h2{
+        padding-left: 100px;
+    }
+
+    .footbar hr{
+        margin-left: 80px;
+    }
+
+    .footbar p{
+        width: 180%;
+        padding-right: 190px;
+    }
+
+    .footdiv{
+        margin-left: 0;
+    }
+
+    .footdiv .fa-brands{
+        padding-left: 25px;
+        padding-bottom: 20px;
+
+    }
+
+    
+
+    .footnav h3{
+        padding-left: 100px;
+    }
+    
+    .footnav{
+        line-height: 40px;
+    }
+    
+    .footnav a{
+        /* width: 100%; */
+        margin-left: 90px;
+        
+    }
+    
+    
+}
+
+
+
+
+
+
