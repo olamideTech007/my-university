@@ -176,13 +176,14 @@ body{
 
 .articlebar{
     padding: 30px;
-    /* background: linear-gradient(rgb(23, 23, 68), rgb(10, 10, 10)) */
+    color: white;
+    background: linear-gradient(rgb(23, 23, 68), rgb(10, 10, 10))
 
 }
 
 .articlebar h2{
     text-align: center;
-    color: rgb(46, 45, 45);
+    color: rgb(250, 246, 246);
     padding-bottom: 10px;
     font-size: 40px;
 }
@@ -434,7 +435,7 @@ body{
 
 
     .hero-section{
-        padding: 0;
+        padding: 100px 10px;
     }
 
     .hero-section h1{
